@@ -1,0 +1,35 @@
+/* Styles go here */
+
+.flexbox{
+  display:flex;
+  justify-content: space-around;
+}
+
+.flexbox div {
+    border: 1px solid black;
+    height: 100px;
+    width: 24%;
+}
+
+.flexbox-container{
+  outline: 1px solid black;
+  display: block;
+  width:30%;
+  float: left;
+}
+
+#target-div{
+  width:30%;
+  height: 100px;
+  display:block;
+  outline: 1px solid black;
+  float: right;
+}
+
+.dragged{
+    background: grey;
+}
+
+.dragEntered{
+    border: 5px dashed green;
+}
